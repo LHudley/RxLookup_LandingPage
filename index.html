@@ -17,6 +17,8 @@
       <div class="header-container">
         <img src="images/rxlogo.png" class="logo" alt="RxLookup Logo">
 
+        <input type="search" name="searchBar" id="searchBar" placeholder="Search medications..." oninput="searchCards()" /><br/>
+
         <div class="badge">
           <span class="badge-dot"></span>
           U.S. prescribing snapshot · Educational use only
@@ -35,6 +37,7 @@
 
         <div class="pill-row">
           <span class="pill">Antibiotics</span>
+          <span class="pill">Antirviral</span>
           <span class="pill">Anticoagulants</span>
           <span class="pill">Breathing</span>
           <span class="pill">Antidiabetic</span>
@@ -42,6 +45,7 @@
           <span class="pill">Cholesterol (statins)</span>
           <span class="pill">Diuretics</span>
           <span class="pill">Pain</span>
+          <span class="pill">Insomnia</span>
           <span class="pill">Muscle relaxants</span>
           <span class="pill">Antidepressants</span>
           <span class="pill">Blood pressure</span>
@@ -72,6 +76,23 @@
         <li>Erythromycin <span>Macrolide antibiotic</span></li>
         <li>Penicillin <span>Broad spectrum antibiotic</span></li>
         <li>Sulfamethoxazole <span>Bactrim · Often combined with trimethoprim</span></li>
+      </ul>
+    </div>
+
+     <!-- ANTIVIRAL -->
+    <div class="card">
+      <h2>Antiviral</h2>
+      <small>Most Common</small>
+      <span class="chip">Antiviral</span>
+      <p>Used to treat HIV and other retroviral infections.</p>
+      <ul>
+        <li>Biktarvy <span>Biktarvy · HIV treatment</span></li>
+        <li>Truvada <span>Truvada · HIV prevention</span></li>
+        <li>Dovato<span>Dovato · HIV treatment</span></li>
+        <li>Peramivir <span>Single-dose antiviral</span></li>
+        <li>Acyclovir <span>Zovirax · herpes virus infections</span></li>
+        <li>Valacyclovir <span>Valtrex · herpes virus infections</span></li>
+        <li>Nirmatrelvir <span>Paxlovid · COVID-19 treatment</span></li>
       </ul>
     </div>
 
@@ -202,6 +223,22 @@
           <li>Oxycodone / APAP <span>Moderate-severe pain</span></li>
           <li>Tramadol<span>Opioid . Adult pain relief</span></li>
           <li>Meloxicam<span>NSAID for arthritis</span></li>
+        </ul>
+      </div>
+
+      <!-- Insomnia -->
+      <div class="card">
+        <h2>Insomnia</h2>
+        <small>Most Common</small>
+        <span class="chip">Sleep aid</span>
+        <p>Used to treat insomnia and improve sleep quality.</p>
+        <ul>
+          <li>Ramelteon <span>Rozerem · melatonin receptor agonist</span></li>
+          <li>Temazepam <span>Restoril · benzodiazepine</span></li>
+          <li>Daridorexant <span>Quviviq · orexin receptor antagonist</span></li>
+          <li>Eszopiclone <span>Lunesta · non-benzodiazepine hypnotic</span></li>
+          <li>Suvorexant <span>Belsomra · orexin receptor antagonist</span></li>
+          <li>Zolpidem <span>Ambien · non-benzodiazepine hypnotic</span></li>
         </ul>
       </div>
 

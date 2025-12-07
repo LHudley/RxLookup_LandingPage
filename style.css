@@ -49,10 +49,21 @@
     }
 
     .logo {
-      height: 200px;
+      height: 180px;
       max-width: 100%;
       object-fit: contain;
       margin: 0 auto 15px auto;
+      display: block;
+    }
+
+    #searchBar {
+      width: 100%;
+      max-width: 400px;
+      padding: 10px 15px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+      margin: 0 auto 20px auto;
       display: block;
     }
 
